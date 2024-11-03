@@ -1,6 +1,7 @@
 # my-projects
 Update:
-1.Hi everyone, in the past few days I have added several projects to my repository on github. Some of these projects are the result of my training in the Data Science & AI Fundamentals class and other course classes. Some of these projects include:
+
+1. Hi everyone, in the past few days I have added several projects to my repository on github. Some of these projects are the result of my training in the Data Science & AI Fundamentals class and other course classes. Some of these projects include:
 - advanced-statistic-project
 - data-visualization-project
 - wrangler-project

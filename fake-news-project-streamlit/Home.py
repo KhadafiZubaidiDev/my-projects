@@ -22,6 +22,6 @@ st.markdown(
     Salah satu cara untuk mengecek informasi tersebut adalah dengan menggunakan algoritma machine learning dengan menggunakan dataset yang telah disediakan.
     \n
     Akhirnya kami selaku penyusun mengucapkan terima kasih atas semua yang telah membantu kami dalam membuat aplikasi ini, terutama dari para mentor dan anggota tim yang telah membantu penyusunan aplikasi ini dari awal hingga akhir.
-    Semoga aplikasi ini bermanfaat. 
+    Semoga aplikasi ini bermanfaat bagi kita semua. 
 """
 )

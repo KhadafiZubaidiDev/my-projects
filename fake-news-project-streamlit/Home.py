@@ -3,6 +3,7 @@ import streamlit as st
 st.set_page_config(
     page_title="Nexus Squad",
     page_icon=":house:",
+    layout="wide",
 )
 
 st.write("# Fake News Detection")

@@ -63,14 +63,6 @@ st.markdown(
 )
 st.dataframe(df.columns)
 
-st.write("##### Dataframe Describe")
-st.markdown(
-    """
-    Berikut ini adalah deskripsi dari dataset yang digunakan untuk membuat aplikasi ini :
-"""
-)
-st.dataframe(df.describe())
-
 st.write("##### Dataframe Dtypes")
 st.markdown(
     """
@@ -102,3 +94,11 @@ st.markdown(
 """
 )
 st.dataframe(df.nunique())
+
+st.write("##### Label Count")
+st.markdown(
+    """
+    Berikut ini adalah hasil penghitungan label dari dataset yang digunakan untuk membuat aplikasi ini :
+"""
+)
+st.dataframe(df.label.value_counts())

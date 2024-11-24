@@ -57,10 +57,10 @@ def wordopts(text):
 
 df['text'] = df['text'].apply(wordopts)
 
-X = df['text']
+x = df['text']
 y = df['label_num']
 
-x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.25)
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 vectorization = TfidfVectorizer()

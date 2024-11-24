@@ -20,3 +20,21 @@ st.markdown(
 """
 )
 st.dataframe(df.describe())
+
+st.write("##### Grafik Distribusi Label")
+st.markdown(
+    """
+    Berikut ini adalah grafik distribusi dari kolom label :
+"""
+)
+fig, ax = plt.subplots()
+ax.set_title('Grafik Bar Distribusi Label')
+ax.set_ylabel('Jumlah')
+ax.set_xlabel('Label')
+df['label'].value_counts().plot(kind='bar', ax=ax,color=['gold','mistyrose'])
+st.pyplot(fig)
+
+fig, ax = plt.subplots()
+ax.set_title('Grafik Pie Distribusi Label')
+df['label'].value_counts().plot(kind='pie', ax=ax, explode={0,0.1},labels=df['label'].value_counts().index,autopct='%1.1f%%',colors=['gold','mistyrose'],shadow=True,textprops={'size': 'smaller'})
+st.pyplot(fig)

@@ -102,3 +102,13 @@ st.markdown(
 """
 )
 st.dataframe(df.label.value_counts())
+
+st.write("##### Penambahan Label")
+
+st.markdown(
+    """
+    Penambahan label pada dataset yang digunakan untuk membuat aplikasi ini ditujukan untuk mengidentifikasi label FAKE akan dianggap 0 dan REAL akan dianggap 1. Berikut adalah hasilnya :
+"""
+)
+df['label_num'] = df['label'].map({'FAKE': 0, 'REAL': 1})
+st.dataframe(df)

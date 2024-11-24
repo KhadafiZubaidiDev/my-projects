@@ -41,7 +41,7 @@ st.markdown(
     """
     Setelah dilakukan penambahan label, selanjutnya dibuatkan fungsi wordopts untuk melakukan preprocessing isi kolom teks pada dataset. 
     Setelah itu dilakukan pendefinisian dependen dan independen variabel. 
-    Lalu dilakukan pembagian dataset menjadi train dan test. Kemudian dilakukan proses konversi teks ke vektor.
+    Lalu dilakukan pembagian dataset menjadi train dan test. Kemudian dilakukan proses konversi teks ke vektor. Berikut beberapa model yang digunakan :
 """
 )
 

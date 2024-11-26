@@ -20,11 +20,11 @@ st.markdown(
 )
 
 # Load the saved model
-with open('LR_Model.sav', 'rb') as f:
+with open('logistic_regression_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Load the spacy model
-nlp = spacy.load('en_core_web_md')
+nlp = spacy.load('en_core_web_sm')
 def run_ml_app():
 
     # Get the news text from the user
@@ -33,7 +33,6 @@ def run_ml_app():
     if not news_text:
         st.warning("Masukkan teks berita terlebih dahulu.")
         return
-    st.button("Prediksi")
 
     # Process the news text using spaCy
     doc = nlp(news_text)

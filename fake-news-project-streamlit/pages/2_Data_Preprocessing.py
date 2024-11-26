@@ -63,13 +63,13 @@ st.markdown(
 )
 st.dataframe(df.columns)
 
-st.write("##### Dataframe Dtypes")
-st.markdown(
-    """
-    Berikut ini adalah tipe data dari dataset yang digunakan untuk membuat aplikasi ini :
-"""
-)
-st.dataframe(df.dtypes)
+##st.write("##### Dataframe Dtypes")
+##st.markdown(
+##    """
+##    Berikut ini adalah tipe data dari dataset yang digunakan untuk membuat aplikasi ini :
+##"""
+##)
+##st.dataframe(df.dtypes)
 
 st.write("##### Dataframe Value Counts")
 st.markdown(

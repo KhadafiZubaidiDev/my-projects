@@ -76,7 +76,7 @@ LR.score(xv_test, y_test)
 st.write("Accuracy Score : ", accuracy_score(y_test, pred_lr))
 st.write(classification_report(y_test, pred_lr))
 
-st.write("#### Naive Bayes")
+""" st.write("#### Naive Bayes")
 from sklearn.naive_bayes import MultinomialNB
 NB = MultinomialNB()
 NB.fit(xv_train,y_train)
@@ -128,4 +128,4 @@ GB.fit(xv_train,y_train)
 pred_gb=GB.predict(xv_test)
 GB.score(xv_test, y_test)
 st.write("Accuracy Score : ", accuracy_score(y_test, pred_gb))
-st.write(classification_report(y_test, pred_gb))
+st.write(classification_report(y_test, pred_gb)) """
